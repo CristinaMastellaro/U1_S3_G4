@@ -33,7 +33,6 @@ const cardForUser = () => {
     card.appendChild(descr);
 
     const oneCard = document.createElement("div");
-    // oneCard.classList.add("thisIsACard");
     const calledNums = [];
     for (let i = 0; i < 24; i++) {
       const numField = document.createElement("div");
