@@ -1,0 +1,93 @@
+body {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+    background-image: url("https://tse1.mm.bing.net/th?id=OIP.G2Er5__g0B5QS7LRlQBrEgHaFj&cb=thvnextc1&pid=Api");
+    /* background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+main {
+    background-color:beige;
+    padding: 1em;
+    border: 1px solid brown;
+}
+
+h1 {
+    margin: 0.5em 0 1em 0;
+    font-size: 3em;
+    font-weight: bold;
+    color:brown;
+}
+
+.tableNumber {
+    display: inline-block;
+    border: 1px solid brown;
+    padding: 1.5em 1.5em 1em 1.5em;
+    width: 40px;
+}
+
+.tableNumber > h3 {
+    font-size: 1em;
+    color: brown;
+    font-weight: bold;
+}
+
+#generateNumber {
+    margin: 1em;
+}
+
+button {
+    padding: 1em;
+    margin: 0.5em;
+    background-color: brown;
+    border-radius: 10px;
+    border: 0;
+    color: white;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+#generateNumber div {
+    margin: 1em;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#generateNumber p {
+    font-size: 1em;
+    padding-top: 1em;
+    display: none;
+}
+
+#generateNumber p+p {
+    font-size: 1.5em;
+    font-weight: bold;
+    padding-top: 0.5em;
+}
+
+.chosenNumber {
+    background-color: green;
+    font-weight: bold;
+}
+
+.userCard {
+    margin: 2em;
+}
+
+#userCards h2+div {
+    margin-bottom: 1.5em;
+}
+
+#userCards h2 {
+    font-size: 1.8em;
+    font-weight: bold;
+    margin: 2em 0 1em 0;
+}
+
+#userCards button { 
+    font-size: 0.7em;
+}
+

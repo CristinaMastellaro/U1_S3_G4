@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tombola!</title>
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <!-- <link rel="stylesheet" href="./assets/css/font-awesome.css" /> -->
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    /> -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Tombola!</h1>
+      <div id="table">
+        <!-- Dentro ci andrà la bellissima tabella che faremo -->
+      </div>
+      <div id="generateNumber">
+        <button onclick="generateAndTicRandomNumber()">Genera numero</button>
+        <div>
+          <p>Numero generato:</p>
+          <p></p>
+        </div>
+      </div>
+      <section id="userCards">
+        <h2>Tabelline del giocatore</h2>
+        <div>
+          <input
+            type="number"
+            placeholder="Tabelle che vuoi creare"
+            id="numTables"
+          />
+          <button onclick="cardForUser()">Crea tabelle</button>
+        </div>
+      </section>
+    </main>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
